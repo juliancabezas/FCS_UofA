@@ -1,0 +1,10 @@
+The structure chosen to solve the problem was to create 3 arrays that represent each of the poles
+These arrays will have a length equal to the number of disks included in the simulation
+The values included in the arrays are zero for empty spaces and a number for 1 to n-disks representing the disk
+
+This structure will allow us to track all the changes that occur step by step in each of the poles
+and identify "illegal movements".
+
+The array structure was chosen because it allows multiple integer values to be stored. 
+It also has a fixed length, preventing bugs in the software (they cant store more disks than the ones initiated)
+The array structure also makes the graphical representation of the disks easier, as we can keep track of each of the required steps to solve the tower of Hanoi

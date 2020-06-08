@@ -1,0 +1,19 @@
+Dear Mr. Boss
+
+I am pleased to inform you that we were able to solve the problem of Ms. Beyonce Smith (Problems 1 and 2) and your requirement (Problem 3)
+
+The problem (1), was due to the insertion sort algorithm not being yet implemented for strings (such as the names of the employees). 
+I fixed it by implementing the method in the Insertion class, so now it should be working for Mr. Smith  
+
+The problem (2), was due to the fact that the software was using a binary search algorithm, that requires the database to be previously sorted (that it why the software was only working when the Ms. Smith called the "4. Sort staff by (age)" first).
+I fixed the above mentioned problem by changing the search algorithm of the software from binary search to linear search. 
+I think it is the most practical solution in the moment, as linear search was implemented and doesn't require the database to be previously sorted. it is less efficient in large datasets, but as the employee database is rather small there should be not problem with that algorithm in the short term. 
+
+Regarding your requirement in problem (3), as selection sort was not yet coded, I implemented 4 methods in the Selection class, both for sorting numbers (ages) and strings (names)
+The methods were not implemented in the software itself, that is still using Insertion sort, but are ready to be included (I already tested them in Test.java). we could run some benchmark testing next week,
+Although I have to tell you that we talked with my colleges and we think that there will probably not be a big improvement in performance, as the complexity of both algorithms is O(n2) in average. We think we should implement quicksort or mergesort algorithms, that have a complexity of O(n log n) in average
+
+Best Regards
+Julian
+
+P.S: I also implemented accessors and mutators in the Company, Person and Employee classes , as they were not yet implemented
